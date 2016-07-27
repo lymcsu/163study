@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>课时详情</title>
+		<script src="js/jquery-1.9.1.js"></script>
+		<link rel="stylesheet" href="css/course.css" />
+	</head>
+
+	<body>
+		<div class="nav-fixed">
+			<div class="nav-content">
+				<div class="nav-logo">
+					<img src="img/logo3.png" />
+				</div>
+				<div class="nav-menu"></div>
+				<a class="nav-part">首页</a>
+				<a id="J-popCourse" class="nav-part">课时体系
+					<div class="course-pop">
+						<div>大学计算机专业</div>
+						<div>互联网职业技能</div>
+						<div>金融专业</div>
+					</div>
+				</a>
+				<a class="nav-part">微专业</a>
+				<a class="nav-part">下载APP</a>
+				<a class="nav-part">我的学习</a>
+				<div class="nav-right">
+					<div class="nav-sear">
+						<div class="nav-icon"></div>
+						<input id="J-nav-search" type="text" placeholder="搜索">
+					</div>
+					<div class="nav-login">
+						登录/注册
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="head-box">
+			<div class="head-top">
+				<div class="head-img">
+					<img src="img/course_img/headimg.jpg" />
+				</div>
+				<div class="course-info">
+					<h1>PPT创意图表制作实例</h1>
+					<div class="detail-info">
+						<span class="head-num"><i></i>57623</span>
+						<div class="star-box">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<span>(115)</span>
+						<a class="pop-link">讲师：璞石PPT</a>
+						<span class="teach-icon"></span>
+					</div>
+					<div class="head-cost">
+						免费
+					</div>
+					<div class="join-btn">立即参加</div>
+					<div class="pop-func">
+						<a></a>
+						<div class="a-link">
+							<span class="a-link-wb"></span>
+							<span class="a-link-db"></span>
+							<span class="a-link-kj"></span>
+							<span class="a-link-rr"></span>
+						</div>
+						<a class="last"></a>
+					</div>
+				</div>
+			</div>
+			<div class="head-foot">
+				<div class="tab-bars">
+					<a id="J-index" class="tab-active">主页</a>
+					<a id="J-note" class="tab-bars-a">笔记</a>
+					<a id="J-talk" class="tab-bars-a">讨论区</a>
+				</div>
+				<a class="ask-answer">问答</a>
+			</div>
+		</div>
+		<div class="tab-index">
+			<div class="index-preview">
+				<p>适用人群：职场人士，学生，PPT制作者</p>
+				<h2>简介</h2>
+				<div class="preview-content">
+					图表的学习是PPT学习的一个重要方面，然而图表也分为很多种，做法更是五花八门。很多学习者找不到门道，学理论，学概念，学基础，学技巧，学方法等等，但是为什么学了这些还是做不出好图表？<br><br>因为你没有学习实例图表，一个实例图表的学习过程可以囊括基础知识，技巧及理论，通过实际案例的学习，实时操练，然后加入自己的创意，这才是掌握知识的“捷径”！<br><br>本套课时通过将案例制作步骤分解，最终做出各种酷炫创意的图表，即使你刚刚接触，里面也有基础的知识讲解，一步步教你制作完成。本课时完全免费，让我们开始吧！
+				</div>
+			</div>
+			<div class="index-right">
+				<div class="index-owner">
+					<div class="owner-pic">
+						<img src="img/course_img/ownerpic.png" class="pop-link" />
+						<span class="img-icon"></span>
+						<p>璞石PPT</p>
+					</div>
+					<div class="owner-about">PPT爱好者，专注于大数据时代的信息可视化，并对社会化营销有着独特的见解。</div>
+				</div>
+				<div class="index-consult">
+					<div class="consult-tit">咨询</div>
+					<div class="consult-cont">
+						<div class="consult-cont-detail">
+							<div class="consult-btn"><img src="img/course_img/QQ图片.png" />服务咨询
+							</div>
+							<p>可在此在线咨询关于课时的内容、价格、售前、售后服务等相关信息</p>
+						</div>
+						<div class="hide-btn">
+							<div class="consult-btn" style="border: 1px solid #abdfbf;"><img src="img/course_img/QQ图片.png" />服务咨询
+							</div>
+							<div class="show-btn">
+								<img src="img/course_img/showbtn.png" />
+								<span>璞石PPT</span>
+							</div>
+						</div>
+						<div class="consult-link">
+							<p>其他联系方式</p>
+							<div class="consult-wechart">
+								<span></span> pushippt(可加微信)
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="index-comment">
+					<div class="consult-tit">评价</div>
+					<div class="comment-cont">
+						<div class="comment-cont-li">
+							<div class="comment-img"><img class="pop-link" src="img/course_img/comment.jpg" /></div>
+							<div class="comment-user">
+								<a class="overflow-a">玛丽ykt23145354235</a><span class="time-length" style="width: 50px;">6月20日</span>
+								<div class="star-box">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+						<div class="comment-cont-li">
+							<div class="comment-img"><img class="pop-link" src="img/course_img/comment2.jpg" /></div>
+							<div class="comment-user">
+								<a class="overflow-a">BigQ22</a><span class="time-length" style="width: 50px;">6月20日</span>
+								<div class="star-box">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+						<div class="comment-cont-li">
+							<div class="comment-img"><img class="pop-link" src="img/course_img/comment3.jpg" /></div>
+							<div class="comment-user">
+								<a class="overflow-a">Cescalia54235</a><span class="time-length" style="width: 50px;">6月20日</span>
+								<div class="star-box">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+						<div class="comment-cont-li">
+							<div class="comment-img"><img class="pop-link" src="img/course_img/comment4.jpg" /></div>
+							<div class="comment-user">
+								<a class="overflow-a">迪迪ykt534231354235</a><span class="time-length" style="width: 50px;">6月20日</span>
+								<div class="star-box">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div style="background-position: -48px -200px;"></div>
+								</div>
+							</div>
+						</div>
+						<div class="comment-box">挺好的，要是声音能再大点，就更好了</div>
+						<div class="comment-cont-li">
+							<div class="comment-img"><img class="pop-link" src="img/course_img/comment2.jpg" /></div>
+							<div class="comment-user">
+								<a class="overflow-a">司马凰饕</a><span class="time-length" style="width: 50px;">6月20日</span>
+								<div class="star-box">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div style="background-position: -48px -200px;"></div>
+								</div>
+							</div>
+						</div>
+						<div class="comment-more">
+							查看更多
+						</div>
+					</div>
+				</div>
+				<div class="index-user">
+					<div class="user-num">57670<span></span></div>
+					<div class="user-container">
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user1.jpg" />
+							<a class="overflow-a user-name">迪迪ykt534231354235</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user2.jpg" />
+							<a class="overflow-a user-name">她很好</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user3.jpg" />
+							<a class="overflow-a user-name">芳芳*</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user4.jpg" />
+							<a class="overflow-a user-name">请注册用户名</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user2.jpg" />
+							<a class="overflow-a user-name">QQ24632466</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user3.jpg" />
+							<a class="overflow-a user-name">Ldsejgs</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user1.jpg" />
+							<a class="overflow-a user-name">Ti'amo</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user4.jpg" />
+							<a class="overflow-a user-name">慌慌哒</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user2.jpg" />
+							<a class="overflow-a user-name">她很好</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user3.jpg" />
+							<a class="overflow-a user-name">芳芳*</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user4.jpg" />
+							<a class="overflow-a user-name">请注册用户名</a>
+						</div>
+						<div class="user-box">
+							<img class="pop-link" src="img/course_img/user2.jpg" />
+							<a class="overflow-a user-name">QQ24632466</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="index-catalog">
+				<div class="catalog-tit">目录</div>
+				<ul class="catalog-list">
+					<div class="list-section"><span class="list-num">章节1:</span><span class="list-cont" style="color: #999;">温度计创意图表制作</span></div>
+					<li>
+						<span class="list-num">课时1:</span>
+						<span class="list-cont">1.温度计创意图表制作-原理及表盘制作</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时2:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时3:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时4:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时5:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时6:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时7:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时8:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<div class="list-section" style="margin-top: 12px;"><span class="list-num">章节2:</span><span class="list-cont" style="color: #999;">汽车仪表盘制作教程</span></div>
+					<li>
+						<span class="list-num">课时9:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时10:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时11:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时12:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时13:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时14:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时15:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+					<li>
+						<span class="list-num">课时16:</span>
+						<span class="list-cont">2.温度计创意图表制作-雏形初现</span>
+						<div class="list-time">
+							<span class="time-length">05:57</span>
+							<span class="time-icon"></span>
+						</div>
+						<div class="hide-eye">
+							<span></span>
+							<a>课时预览</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="tab-note">
+			<div class="note-container">
+				<div class="catalog-tit">笔记
+					<a class="note-type">最新笔记</a>
+					<a class="note-type">最优笔记</a>
+				</div>
+				<div class="note-log">
+					<a>全部笔记</a>
+					<a>课时笔记</a>
+					<a>课时1</a>
+					<a>课时2</a>
+					<a>课时3</a>
+					<a>课时4</a>
+					<a>课时5</a>
+					<a>课时6</a>
+					<a>课时7</a>
+					<a>课时8</a>
+					<a>课时9</a>
+					<a>课时10</a>
+					<a>课时11</a>
+					<a>课时12</a>
+					<a>课时13</a>
+					<a>课时14</a>
+					<a>课时15</a>
+					<a>课时16</a>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-list">
+					<img class="pop-link" src="img/course_img/note1.jpg" />
+					<div class="note-head">
+						<span class="head-user">missionykt1448594977248</span>
+						<span class="head-time">00:21</span>
+						<span class="head-icon"></span>
+						<a class="head-course">课时1</a>
+					</div>
+					<div class="note-cont">阿大声道</div>
+					<div class="note-foot">
+						<span class="J-onload-time">3月22日</span>
+						<span class="J-tip"></span>
+						<a class="share-icon">分享</a>
+						<a class="cellect-icon">收藏</a>
+						<a class="comment-icon">评论（1）</a>
+						<a class="up-icon">顶（3）</a>
+					</div>
+				</div>
+				<div class="note-page">
+					<a class="change-page past"></a>
+					<a class="page-num" style="color:#10ae58;">1</a>
+					<a class="page-num">2</a>
+					<a class="page-num">3</a>
+					<a class="change-page next"></a>
+				</div>
+			</div>
+		</div>
+		<div class="tab-comment">
+			<div class="comment-left">
+				<div class="comment-header">
+					<div class="header-tit">
+						<span>讨论区</span>
+						<a>讨论区使用规则</a>
+					</div>
+					<p class="header-cont">欢迎进入课程讨论区，你可以与本课程的老师和同学在这里交流。如果你有课程相关的问题，请发到老师答疑区；经验、思考、创意、作品、转帖请发到综合讨论区。欢迎分享，鼓励原创，杜绝广告，请大家共同维护一个包容、积极、相互支持的交流氛围，谢谢。了解更多请点击“讨论区使用规则”↗</p>
+				</div>
+				<ul class="comment-list">
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment1.png" />
+								<a>阳光快线</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>好吗</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment4.png" />
+								<a>迷茫的Donkey爱养乐多 </a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>声音太小，视频，模糊，建议编制好后再上传吧</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment2.png" />
+								<a>鬼魅鬼鬼</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>老师说话速度好慢哟！</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment3.png" />
+								<a>阳光快线</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>内容挺好</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment4.png" />
+								<a>水文吟诗 </a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>好卡啊</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment1.png" />
+								<a>虚伪mooc5</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>有点卡</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment3.png" />
+								<a>systemykt1467394766223 </a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>嗯 ，我更感觉 http://www.care-e.com 是管理人员更好使用Excel的工具。看一看！ 在EXCEL上，管理人员就能做出自己的管理软件。</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment2.png" />
+								<a>fancy456 </a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>2013吗？</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment4.png" />
+								<a>阳光快线</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>好吗</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-box">
+							<div class="comment-list-top">
+								<img class="comment-pic" src="img/course_img/comment1.png" />
+								<a>阳光快线</a>
+								<span class="onload-time">7月10日</span>
+								<span class="talk-all">【综合讨论区】</span>
+							</div>
+							<div class="comment-list-mid">
+								<a>声音太小，不太清楚</a>
+							</div>
+							<div class="comment-list-foot">
+								<span class="comment-up">（0）</span>
+								<span class="comment-adds">（0）</span>
+								<span class="comment-seen">（1）</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="note-page" style="width: 280px;font-size: 12px;padding-right: 0;">
+					<a class="change-page past"></a>
+					<a class="page-num" style="color:#10ae58;">1</a>
+					<a class="page-num">2</a>
+					<a class="page-num">3</a>
+					<a class="page-num">4</a>
+					<a class="page-num">5</a>
+					<a class="page-num">6</a>
+					<a class="page-num">7</a>
+					<span style="float: left;margin-right: 2px;">...</span>
+					<a class="change-page next"></a>
+				</div>
+			</div>
+			<div class="comment-right">
+				<div class="talk-btn"></div>
+				<div class="talk-part">
+					<div class="talk-search">
+						<div class="search-select">
+							<div tabindex="-1" style="outline: none;">全部讨论区</div>
+						</div>
+						<div class="select-pop">
+							<div id="part1">老师答疑区</div>
+							<div id="part2">综合讨论区</div>
+							<div id="part3">全部讨论区</div>
+						</div>
+						<div class="search-input">
+							<input type="text" />
+						</div>
+					</div>
+					<div class="talk-img">
+						<a class="img-answer">
+							<div class="img-link"></div>
+							<span class="answer-link-tit">老师答疑区</span>
+							<p class="answer-link-cont">将学习过程中关于课程内容、学习方法</p>
+						</a>
+						<a class="img-answer">
+							<div class="img-link" style="background-position: -94px -106px;"></div>
+							<span class="answer-link-tit">综合讨论区</span>
+							<p class="answer-link-cont">欢迎分享，鼓励原创，</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="userinfo-box">
+			<div class="pop-userinfo">
+				<div class="userinfo-img-box">
+					<img src="img/course_img/tx.jpg" class="userinfo-img" />
+				</div>
+				<a class="userinfo-username">systemykt1467394766223</a>
+				<div class="care-becared">
+					<span>关注 0</span>
+					<span>|</span>
+					<span>粉丝 0</span>
+				</div>
+				<div class="care-btn">关注</div>
+			</div>
+		</div>
+		<div class="side-menu">
+			<div class="service-box">
+					<p class="service-tit">在线联系客服:</p>
+					<div class="service-mid">
+						<img src="img/course_img/service.png" />云课堂在线客服
+					</div>
+					<div class="service-foot">或者将建议留言反馈给我们，
+						<a style="color: #10AE58;">留言反馈</a>
+					</div>
+			</div>
+			<div class="side-btn">
+				<img class="side-btn-img" src="img/course_img/sidebtn1.png" />
+				<span>意见反馈</span>
+			</div>
+			<div class="side-btn">
+				<img class="side-btn-img" src="img/course_img/sidebtn2.png" />
+				<span>手机课堂</span>
+			</div>
+			<div class="side-btn">
+				<img class="side-btn-img" src="img/course_img/sidebtn3.png" />
+				<span>返回顶部</span>
+			</div>
+		</div>
+		<div class="foot-part">
+			<div class="foot-content">
+				<div class="foot-left">
+					<div class="foot-img">
+						<img src="img/logoFoot.png" />
+					</div>
+					<p class="foot-word">网易公司(163.com)旗下实用技能学习平台。与顶级机构、院校和优秀讲师合作，为您提供海量优质课程，以及创新的在线学习体验，帮助您获得全新的个人发展和能力提升。</p>
+					<div class="care-us">
+						<span class="care-us-span">关注我们：</span>
+						<a class="care-us-a1"></a>
+						<a class="care-us-a2"></a>
+						<a class="care-us-a3"></a>
+						<a class="care-us-a4"></a>
+					</div>
+					<div class="foot-sign">
+						<p>©1997-2016 网易公司 版权所有</p>
+					</div>
+				</div>
+				<div class="foot-right">
+					<a class="link-to">关于我们</a>
+					<a class="link-to">联系我们</a>
+					<a class="link-to">帮助中心</a>
+					<a class="link-to">内容招募</a>
+					<a class="link-to">意见反馈</a>
+					<a class="link-to">企业服务</a>
+					<a class="link-to">中国大学MOOC</a>
+					<div class="app-logo">
+						<span class="app-name">移动App:</span>
+						<a class="link-logo1">
+						</a>
+						<a class="link-logo2">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/tabPages.js"></script>
+	</body>
+
+</html>
